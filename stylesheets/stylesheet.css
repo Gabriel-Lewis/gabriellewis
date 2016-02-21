@@ -245,5 +245,7 @@ a {
     font-size: 0.9rem; } }
     
 .profile-img {
-  border-radius: 50%
+  border-radius: 50%;
+  width:100px;
+  height:100px;
 }
