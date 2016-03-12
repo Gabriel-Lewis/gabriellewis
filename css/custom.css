@@ -64,6 +64,7 @@ width:50px;
 				min-width: 0;
 				width: 100%;
 				padding: 4em 2em 2.5em 2em ;
+				border:black, 1px;
 			}
 
 				#main .avatar:before {
