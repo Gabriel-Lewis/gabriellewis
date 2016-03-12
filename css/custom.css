@@ -51,7 +51,7 @@ width:50px;
 				display: block;
 				position: absolute;
 				top: 50%;
-				left: -3em;
+				
 				width: calc(100% + 6em);
 				height: 1px;
 				z-index: -1;
