@@ -4,6 +4,10 @@
 		border: 0;
 		font-size: 100%;
 	}
+body {
+
+	}
+
 a {
 		text-decoration: none;
 		color: black;
@@ -14,42 +18,55 @@ a {
 }
 
 .card {
-	position:relative;
-	display: inline-grid;
+	position: relative;
 	text-align: center;
-	width: 10%;
-	height: 20%;
-	margin: 10%;
-	padding: 10%;
-	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	height: 500px;
+	margin: auto;
+	padding: 10px;
+	margin-top: 5%;
 	border-radius: 10px;
 	background-color: white;
 
 }
 .info {
-
+	position: relative;
+	height: auto;
+	width: auto;
+	margin: auto;
+	
 }
 .info img {
 	border-radius: 50%;
 	height:125px;
 	width:125px;
-	margin-bottom: 10px;
-
 }
 .info h1, h2, p, a {
 	font-family: avenir, sans-serif;
-	font-size: 1.25em;
-}
-.info {
-
+	font-size: 1.5em;
 }
 .main {
 	position: absolute;
-	display: flex;
-	flex-direction: column;
+	display: inline-block;
 	align-items: center;
 	background-color: black;
 	width:100%;
 	height:100%
+}
+.links{
+	position: relative;
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+}
 
+.links li{
+	display: inline;
+	list-style: none;
+	float:left;
+	margin: 10px;
 }
