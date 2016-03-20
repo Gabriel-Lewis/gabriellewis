@@ -5,16 +5,19 @@
 		font-size: 100%;
 	}
 body {
-
+	-webkit-transform-style: preserve-3d;
+           transform-style: preserve-3d;
+   -webkit-transform: perspective(800px);
+           transform: perspective(800px);
 	}
 
 a {
 		text-decoration: none;
-		color: black;
+		color: white;
 	}
 
 	a:hover {
-    color: gray
+    color: lightgray
 }
 
 .card {
@@ -28,16 +31,45 @@ a {
 	margin: auto;
 	padding: 10px;
 	margin-top: 5%;
-	border-radius: 10px;
-	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+	background: #c21500; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 
 }
+.card .shine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(315deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 60%);
+  z-index: 100;
+}
+.card div[class*="layer-"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  border-radius: 5px;
+}
+
+
 .info {
 	position: relative;
 	height: auto;
 	width: auto;
 	margin: auto;
-	
+
 }
 .info img {
 	border-radius: 50%;
@@ -47,12 +79,13 @@ a {
 .info h1, h2, p, a {
 	font-family: avenir, sans-serif;
 	font-size: 1.5em;
+	color: white;
 }
 .main {
 	position: absolute;
 	display: inline-block;
 	align-items: center;
-	background-color: black;
+	background-color: white;
 	width:100%;
 	height:100%
 }
