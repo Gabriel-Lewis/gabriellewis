@@ -57,8 +57,7 @@
     var $card = $('.card'),
     $shine = $('.shine'),
     $layer = $('div[class*="layer-"]');
-
-    $(window).on('touchmove', function(e) {
+    $(window).on('mousemove', function(e) {
     var w = $(window).width(), //window width
       h = $(window).height(), //window height
       offsetX = 0.5 - e.pageX / w, //cursor position X
@@ -69,27 +68,21 @@
       angle = theta * 180 / Math.PI - 90, //convert rad in degrees
       offsetCard = $card.data('offset'),
       transformCard = 'translateY(' + -offsetX * offsetCard + 'px) rotateX(' + (-offsetY * offsetCard) + 'deg) rotateY(' + (offsetX * (offsetCard * 2)) + 'deg)'; //poster transform
-
     //get angle between 0-360
     if (angle < 0) {
       angle = angle + 360;
     }
-
     //gradient angle and opacity
     $shine.css('background', 'linear-gradient(' + angle + 'deg, rgba(255,255,255,' + e.pageY / h * .5 + ') 0%,rgba(255,255,255,0) 80%)');
-
     //poster transform
     $card.css('transform', transformCard);
-
     //parallax foreach layer
     $layer.each(function() {
       var $this = $(this),
         offsetLayer = $this.data('offset') || 0,
         transformLayer = 'translateX(' + offsetX * offsetLayer + 'px) translateY(' + offsetY * offsetLayer + 'px)';
-
       $this.css('transform', transformLayer);
 });
-
 });
     </script>
   </div>
