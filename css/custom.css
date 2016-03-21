@@ -20,6 +20,7 @@ a {
     color: lightgray
 }
 
+
 .card {
 	position: relative;
 	text-align: center;
@@ -28,7 +29,7 @@ a {
 	justify-content: center;
 	width: 400px;
 	height: 500px;
-	margin: auto;
+	margin:auto;
 	padding: 10px;
 	margin-top: 5%;
 	border-radius: 5px;
@@ -40,8 +41,14 @@ a {
           transform-style: preserve-3d;
 
 }
+
+
+
+
+
+}
 .card .shine {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -51,14 +58,13 @@ a {
   z-index: 100;
 }
 .card div[class*="layer-"] {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
   background-size: 100% auto;
-  background-repeat: no-repeat;
   background-position: 0 0;
   border-radius: 5px;
 }
@@ -66,9 +72,6 @@ a {
 
 .info {
 	position: relative;
-	height: auto;
-	width: auto;
-	margin: auto;
 
 }
 .info img {
@@ -102,4 +105,20 @@ a {
 	list-style: none;
 	float:left;
 	margin: 10px;
+}
+/* iPhone [portrait + landscape] */
+
+	@media only screen
+and (max-width : 480px) {
+	.card {
+
+
+		margin-top: 20%;
+		width: 85%;
+		height: auto;
+	}
+	.main {
+
+
+	}
 }
