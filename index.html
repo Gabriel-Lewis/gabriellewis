@@ -58,7 +58,7 @@
     $shine = $('.shine'),
     $layer = $('div[class*="layer-"]');
 
-    $(window).on('touchmove', function(e) {
+    $(window).on('touchstart', function(e) {
     var w = $(window).width(), //window width
       h = $(window).height(), //window height
       offsetX = 0.5 - e.pageX / w, //cursor position X
