@@ -16,9 +16,20 @@ a {
 		color: white;
 	}
 
-	a:hover {
-    color: lightgray
+.fa-github:hover {
+	color: black
 }
+
+.fa-twitter:hover {
+	color: #55acee
+}
+
+.fa-linkedin:hover {
+	color: #0077b5
+}
+
+
+
 
 
 .card {
