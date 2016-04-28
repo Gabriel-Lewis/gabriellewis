@@ -1,6 +1,6 @@
 # Gabriel Lewis
 
-This is my personal portfolio page at Gabriellewis.me
+This is my personal portfolio page at http://Gabriellewis.me
 
 ###Contact 
 You can reach me on 
