@@ -9,7 +9,7 @@ Twitter [@Gabriel__Lewis](https://www.twitter.com/gabriel__lewis)
 
 [Github](https://www.github.com/gabriel-lewis)
 
-[Facebook](https://www.facebook.com/gabe.lewis4)
+[Facebook](https://www.facebook.com/thegabriellewis)
 
 [LinkedIn](https://www.linkedin.com/in/gabriellewis0)
 
