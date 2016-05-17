@@ -52,6 +52,7 @@
 
 <body>
 
+<<<<<<< HEAD
 <section class="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted" id="header1-1" style="background-image: url(assets/images/me-on-a-bike.jpg);">
     <div class="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-center">
         <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(235, 107, 86);"></div>
@@ -499,5 +500,79 @@
 
 </script>
   
+=======
+  <div class="main">
+      <div data-offset="5" class="card">
+
+
+        <div class="info">
+          <img alt="gabriel lewis" src="https://pbs.twimg.com/profile_images/685620096820244480/0dFRGUJq.jpg">
+          <h1>Gabriel Lewis</h1>
+          <p>iOS Developer</p>
+          <div class="links">
+          <ul>
+          <li>
+          <a href="https://github.com/gabriel-lewis" class="fa fa-github fa-3x"></a></li>
+          <li>
+          <a href="https://linkedin.com/in/gabriellewis1" class="fa fa-linkedin fa-3x"></a></li>
+          <li>
+          <a href="https://twitter.com/gabriel__lewis" class="fa fa-twitter fa-3x"></a></li>
+        </ul>
+      </div>
+        </div>
+
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-72991808-1");
+            pageTracker._trackPageview();
+        } catch (err) {}
+    </script>
+    <script type="text/javascript">
+    var $card = $('.card'),
+    $shine = $('.shine'),
+    $layer = $('div[class*="layer-"]');
+
+    $(window).on('touchstart', function(e) {
+    var w = $(window).width(), //window width
+      h = $(window).height(), //window height
+      offsetX = 0.5 - e.pageX / w, //cursor position X
+      offsetY = 0.5 - e.pageY / h, //cursor position Y
+      dy = e.pageY - h / 2, //@h/2 = center of poster
+      dx = e.pageX - w / 2, //@w/2 = center of poster
+      theta = Math.atan2(dy, dx), //angle between cursor and center of poster in RAD
+      angle = theta * 180 / Math.PI - 90, //convert rad in degrees
+      offsetCard = $card.data('offset'),
+      transformCard = 'translateY(' + -offsetX * offsetCard + 'px) rotateX(' + (-offsetY * offsetCard) + 'deg) rotateY(' + (offsetX * (offsetCard * 2)) + 'deg)'; //poster transform
+
+    //get angle between 0-360
+    if (angle < 0) {
+      angle = angle + 360;
+    }
+
+    //gradient angle and opacity
+    $shine.css('background', 'linear-gradient(' + angle + 'deg, rgba(255,255,255,' + e.pageY / h * .5 + ') 0%,rgba(255,255,255,0) 80%)');
+
+    //poster transform
+    $card.css('transform', transformCard);
+
+    //parallax foreach layer
+    $layer.each(function() {
+      var $this = $(this),
+        offsetLayer = $this.data('offset') || 0,
+        transformLayer = 'translateX(' + offsetX * offsetLayer + 'px) translateY(' + offsetY * offsetLayer + 'px)';
+
+      $this.css('transform', transformLayer);
+});
+
+});
+    </script>
+  </div>
+>>>>>>> de12f8f3a7886576bc8ef3e17036dc52e3fdfb92
 </body>
 </html>
