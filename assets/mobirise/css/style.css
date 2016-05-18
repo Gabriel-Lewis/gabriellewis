@@ -809,7 +809,7 @@ html {
   font-size: 46px;
   font-weight: bold;
   left: -2px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   line-height: 50px;
   margin: -18px 0 1px 0;
   padding-bottom: 41px;
@@ -1078,8 +1078,8 @@ html {
   display: block;
   font-size: 25px;
   font-weight: bold;
-  letter-spacing: 6px;
-  line-height: 1.5em;
+  letter-spacing: 2px;
+  line-height: 1em;
   margin: 0;
 }
 .mbr-header__subtext {
@@ -1363,7 +1363,7 @@ html {
   display: block;
   font-weight: bold;
   line-height: 1.3em;
-  text-align: left;
+  text-align: center;
 }
 .mbr-article--wysiwyg h1 {
   font-size: 27px;
@@ -1371,7 +1371,7 @@ html {
 }
 .mbr-article--wysiwyg h2 {
   font-size: 23px;
-  letter-spacing: 2px;
+  letter-spacing: .5px;
 }
 .mbr-article--wysiwyg h3 {
   font-size: 19px;
@@ -1597,6 +1597,20 @@ html {
 }
 .mbr-number--inverse-price .mbr-number__right {
   display: inline;
+}
+.mockups {
+  height: 500px;
+  width: auto;
+  
+}
+.logo {
+  height: 200px;
+  width:auto;
+  
+}
+.education-logo {
+  height: 70px;
+  width: auto;
 }
 
 .engine {
