@@ -839,6 +839,11 @@ html {
   display: block;
   width: 100%;
 }
+.mbr-figure--profile-img {
+  display: block;
+  width: 50%;
+  border-radius: 50%
+}
 .mbr-figure.mbr-after-navbar:before {
   display: none;
 }
@@ -1601,12 +1606,12 @@ html {
 .mockups {
   height: 500px;
   width: auto;
-  
+
 }
 .logo {
   height: 200px;
   width:auto;
-  
+
 }
 .education-logo {
   height: 70px;
