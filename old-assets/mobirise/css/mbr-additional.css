@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+
+
+
+#header1-1 H1 {
+  text-align: center;
+  font-size: 84px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#header1-1 SPAN {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+#header3-16 H3 {
+  text-align: center;
+}
+#features1-3 .mbr-section-title .mbr-header__text {
+  font-family: 'Raleway', sans-serif;
+}
+#features1-3 .mbr-section-title .mbr-header__text SPAN {
+  font-family: 'Roboto', sans-serif;
+}
+#header3-6 H3 {
+  text-align: center;
+}
+#msg-box4-7 .mbr-header__text {
+  color: #000000;
+  font-size: 36px;
+}
+#msg-box4-7 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-7 .mbr-article {
+  color: #28324e;
+}
+#msg-box4-7 .mbr-header__subtext SPAN {
+  font-size: 22px;
+  color: #000000;
+}
+#msg-box4-7 .mbr-article P {
+  color: #000000;
+  text-align: center;
+}
+#msg-box4-8 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-8 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-8 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-8 .mbr-header__text P {
+  font-size: 32px;
+}
+#msg-box4-11 .mbr-header__text {
+  color: #000000;
+}
+#msg-box4-11 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-11 .mbr-article P {
+  color: #000000;
+}
+#msg-box4-11 .mbr-header__subtext SPAN {
+  color: #28324e;
+}
+#msg-box4-19 .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-19 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-19 .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-15 .mbr-header__text {
+  color: #28324e;
+}
+#msg-box4-15 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-15 .mbr-article {
+  color: #28324e;
+}
+#msg-box4-15 .mbr-header__subtext SPAN {
+  color: #28324e;
+}
+#msg-box4-15 .mbr-article P {
+  color: #28324e;
+}
+#features1-16 P {
+  text-align: center;
+}
+#features1-17 .mbr-section-title .mbr-header__text {
+  text-align: left;
+}
+
+img.profile-avatar {
+  border-radius: 100%;
+  height:200px;
+  width: 200px;
+  margin: 25px;
+}
+
+p.self-description {
+  margin: 25px;
+}
+
+.thinkpiece-mockup {
+  width: 100%;
+  height: auto;
+}
