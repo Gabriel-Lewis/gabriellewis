@@ -2,8 +2,8 @@
 
 This is my personal portfolio page at http://Gabriellewis.me
 
-###Contact 
-You can reach me on 
+###Contact
+You can reach me on
 
 Twitter [@Gabriel__Lewis](https://www.twitter.com/gabriel__lewis)
 
@@ -13,8 +13,4 @@ Twitter [@Gabriel__Lewis](https://www.twitter.com/gabriel__lewis)
 
 [LinkedIn](https://www.linkedin.com/in/gabriellewis0)
 
-[Google+](https://plus.google.com/u/1/+GabrielLewis1)
-
 [Product Hunt](https://www.producthunt.com/@gabriel__lewis)
-
-
