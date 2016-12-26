@@ -1,6 +1,8 @@
 # Gabriel Lewis
 
-This is my personal portfolio page at http://Gabriellewis.me
+This is my personal portfolio page at http://gabriellewis.me
+
+Design by [@ajlkn](https://aj.lkn.io/)
 
 ###Contact
 
