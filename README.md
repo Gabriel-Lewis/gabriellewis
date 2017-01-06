@@ -6,7 +6,7 @@ Design by [@ajlkn](https://aj.lkn.io/)
 
 ###Contact
 
-You can reach me on
+You can reach me on:
 
 [Twitter @Gabriel__Lewis](https://www.twitter.com/gabriel__lewis)
 
