@@ -12,8 +12,6 @@ You can reach me on:
 
 [Github](https://www.github.com/gabriel-lewis)
 
-[Facebook](https://www.facebook.com/thegabriellewis)
-
 [LinkedIn](https://www.linkedin.com/in/gabriellewis0)
 
 [Product Hunt](https://www.producthunt.com/@gabriel__lewis)
