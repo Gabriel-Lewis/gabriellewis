@@ -4,7 +4,7 @@ This is my personal portfolio page at http://gabriellewis.me
 
 Design by [@ajlkn](https://aj.lkn.io/)
 
-###Contact
+## Contact
 
 You can reach me on:
 
