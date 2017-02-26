@@ -2,7 +2,7 @@
 
 This is my personal portfolio page at http://gabriellewis.me
 
-Check out one of my portfolio projects, Thinkpiece, [here](http://thinkpiece.space) 
+Check out one of my portfolio projects, [Thinkpiece](http://thinkpiece.space) 
 
 Design by [@ajlkn](https://aj.lkn.io/)
 
