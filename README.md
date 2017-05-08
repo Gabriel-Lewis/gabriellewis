@@ -1,6 +1,6 @@
 # Gabriel Lewis
 
-This is my personal portfolio page at [http://gabriellewis.me](http://gabriellewis.me)
+This is my personal website repo. [http://gabriellewis.me](http://gabriellewis.me)
 
 Check out one of my portfolio projects (built with React), [Thinkpiece](http://thinkpiece.space)
 
