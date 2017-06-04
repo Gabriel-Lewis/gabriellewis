@@ -10,7 +10,7 @@ Design by [@ajlkn](https://aj.lkn.io/)
 
 You can reach me on:
 
-[Twitter @Gabriel__Lewis](https://www.twitter.com/gabriel__lewis)
+I'm [@Gabriel__Lewis on Twitter](https://www.twitter.com/gabriel__lewis)
 
 [Github](https://www.github.com/gabriel-lewis)
 
