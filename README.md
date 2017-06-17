@@ -6,7 +6,7 @@ Check out one of my portfolio projects (built with React), [Thinkpiece](http://t
 
 Design by [@ajlkn](https://aj.lkn.io/)
 
-### Contact
+## Contact
 
 You can reach me on:
 
