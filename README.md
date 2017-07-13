@@ -2,7 +2,7 @@
 
 This is my personal website repo. [http://gabriellewis.me](http://gabriellewis.me)
 
-Check out one of my portfolio projects (built with React), [Thinkpiece](http://thinkpiece.space)
+Check out one of my portfolio projects (built with React, Redux, and Ruby on Rails), [Thinkpiece](http://thinkpiece.space)
 
 Design by [@ajlkn](https://aj.lkn.io/)
 
