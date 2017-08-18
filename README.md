@@ -6,7 +6,7 @@ It is hosted on Github Pages.
 
 Check out one of my portfolio projects (built with React, Redux, and Ruby on Rails), [Thinkpiece](http://thinkpiece.space)
 
-Design by [@ajlkn](https://aj.lkn.io/)
+**Design by [@ajlkn](https://aj.lkn.io/)**
 
 ## Contact
 
