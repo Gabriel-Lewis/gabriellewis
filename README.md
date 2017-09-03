@@ -4,6 +4,8 @@ This is my personal website repo. [http://gabriellewis.me](http://gabriellewis.m
 
 It is hosted on Github Pages.
 
+I'm current working at [Panda](http://panda.af)
+
 Check out one of my portfolio projects (built with React, Redux, and Ruby on Rails), [Thinkpiece](http://thinkpiece.space)
 
 **Design by [@ajlkn](https://aj.lkn.io/)**
