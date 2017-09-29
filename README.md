@@ -1,4 +1,4 @@
-# Gabriel Lewis
+# Gabriel Lewis 🦆
 
 This is my personal website repo. [http://gabriellewis.me](http://gabriellewis.me)
 
