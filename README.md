@@ -14,7 +14,7 @@ Check out one of my portfolio projects (built with React, Redux, and Ruby on Rai
 
 You can reach me on:
 
-I'm [@Gabriel__Lewis on Twitter](https://www.twitter.com/@gabriel__lewis)
+I'm 🐤 [@Gabriel__Lewis on Twitter](https://www.twitter.com/@gabriel__lewis)
 
 [Github](https://www.github.com/gabriel-lewis)
 
