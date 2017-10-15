@@ -20,6 +20,6 @@ I'm 🐤 [@Gabriel__Lewis on Twitter](https://www.twitter.com/@gabriel__lewis)
 
 [LinkedIn](https://www.linkedin.com/in/gabriellewis0)
 
-[Product Hunt](https://www.producthunt.com/@gabriel__lewis)
+🅿️[Product Hunt](https://www.producthunt.com/@gabriel__lewis)
 
 [Angel List](https://angel.co/gabriel-lewis)
