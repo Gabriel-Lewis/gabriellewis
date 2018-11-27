@@ -1620,7 +1620,7 @@
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 30px;
 		line-height: 1.5em;
 	}
 
@@ -2455,8 +2455,22 @@
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 18px;
 			line-height: 1.5em;
+			margin: 0;
+		}
+
+		.work-item strong {
+			text-transform:  uppercase;
+			font-weight: 600;
+			font-size: 14px;
+		}
+
+		.work-place-header {
+			margin-bottom: 10px;
+		}
+
+		h3.work-place {
 			margin: 0;
 		}
 
@@ -2999,7 +3013,7 @@
 			}
 
 			h2 {
-				font-size: 1.2em;
+				font-size: 28px;
 			}
 
 			h3 {
