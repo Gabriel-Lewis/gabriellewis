@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+  --accent: #000;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #000;
+  background: #fafafa;
+  background-image: linear-gradient(#fff 0%, #f5f5f5 100%);
+}
+
+header#header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#header .avatar {
+  display: none;
+}
+
+header#header h1 {
+  font-weight: 600;
+  margin: 0;
+}
+
+#main {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+#main section {
+  margin-bottom: 3rem;
+  padding: 1.5rem 0;
+}
+
+#main h2 {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.work-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.work-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+.work-item .icon {
+  font-size: 3rem;
+  width: 80px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.work-place-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 2rem 0;
+  background: #fff;
+}
+
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+#footer li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.icons .icon {
+  font-size: 1.5rem;
+  color: var(--accent);
+}
