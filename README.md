@@ -4,7 +4,7 @@ This is my personal website repo. [http://gabriellewis.me](http://gabriellewis.m
 
 It is hosted on Github Pages.
 
-I'm currently working at [Panda](http://panda.af)
+I'm currently working at [Meta](https://about.meta.com)
 
 Check out one of my portfolio projects (built with React, Redux, and Ruby on Rails), [Thinkpiece](http://thinkpiece.space)
 
