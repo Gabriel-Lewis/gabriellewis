@@ -4,22 +4,19 @@ This is my personal website repo. [http://gabriellewis.me](http://gabriellewis.m
 
 It is hosted on Github Pages.
 
-I'm currently working at [Meta](https://about.meta.com)
+I'm currently working at [Meta](https://meta.com)
 
-Check out one of my portfolio projects (built with React, Redux, and Ruby on Rails), [Thinkpiece](http://thinkpiece.space)
 
-**Design by [@ajlkn](https://aj.lkn.io/)**
-
-## Contact
+## Socials
 
 You can reach me on:
 
-I'm 🐤 [@Gabriel__Lewis on Twitter](https://www.twitter.com/@gabriel__lewis)
+🦋 [Bluesky](https://bsky.app/profile/gabriellewis.bsky.social)
+
+📝 [Threads](https://www.threads.com/@lookslikeaspaceship)
 
 🐙 [Github](https://www.github.com/gabriel-lewis)
 
-💼[LinkedIn](https://www.linkedin.com/in/gabriellewis0)
+💼 [LinkedIn](https://www.linkedin.com/in/gabriellewis0)
 
-🅿️[Product Hunt](https://www.producthunt.com/@gabriel__lewis)
 
-[Angel List](https://angel.co/gabriel-lewis)
