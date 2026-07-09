@@ -20,11 +20,17 @@
 	<link href="favicons/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
 	<link href="favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 	<!-- Twitter Card -->
-	<meta content="summary_large_image" name="twitter:card">
+	<meta content="summary" name="twitter:card">
 	<meta content="@Gabriel__Lewis" name="twitter:site">
 	<meta content="Gabriel Lewis - Software Engineer" name="twitter:title">
 	<meta content="Software Engineer. Work and Experience." name="twitter:description">
-	<meta content="http://i.imgur.com/1xpIp2U.jpg" name="twitter:image">
+	<meta content="https://gabriellewis.me/images/thumbs/gabriel_lewis.jpeg" name="twitter:image">
+	<!-- Open Graph -->
+	<meta content="Gabriel Lewis - Software Engineer" property="og:title">
+	<meta content="Software Engineer at Meta. Work, projects, and experience." property="og:description">
+	<meta content="https://gabriellewis.me/images/thumbs/gabriel_lewis.jpeg" property="og:image">
+	<meta content="https://gabriellewis.me/" property="og:url">
+	<meta content="profile" property="og:type">
 	<!-- Google Web Console Verification -->
 	<meta content="gJ5ggT8UAUNqYo5AO9hDau1UAWuYbT_0op5r44WWnZs" name="google-site-verification">
 	<!-- Search Data -->
@@ -58,7 +64,7 @@
 			<div class="row">
 				<article class="6u 12u$(xsmall) work-item">
 					<a href="https://about.meta.com" target="_blank" class="image fit thumb"><img
-							src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/meta.svg"
+							src="images/thumbs/meta.svg"
 							alt="Meta" /></a>
 					<div class="work-place-header">
 						<h3 class="work-place">Meta</h3>
@@ -68,7 +74,7 @@
 				</article>
 				<article class="6u 12u$(xsmall) work-item">
 					<a href="https://imgur.com" target="_blank" class="image fit thumb"><img
-							src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/imgur.svg"
+							src="images/thumbs/imgur.svg"
 							alt="Imgur" /></a>
 					<div class="work-place-header">
 						<h3 class="work-place">Imgur</h3>
@@ -89,7 +95,7 @@
 		</section>
                 <!-- Two -->
 		<section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Projects</h2>
                         <div class="row">
                                 <article class="6u 12u$(xsmall) work-item">
                                         <a class="image fit thumb" href="https://github.com/Gabriel-Lewis/Air/releases/tag/V1.0.1"
@@ -107,28 +113,8 @@
                                         <h3>Panda iOS App</h3>
                                         <p>AR camera triggered by your voice.</p>
                                         <br>
-                                        <a href="https://itunes.apple.com/us/app/panda/id1250583288?ls=1&mt=8" target="_blank"
-                                                class="button small icon fa-apple">App Store</a>
-                                </article>
-                        </div>
-                        <div class="row">
-                                <article class="6u 12u$(xsmall) work-item">
-                                        <a href="images/thumbs/hodlgang.jpg" class="image fit thumb"><img src="images/thumbs/hodlgang.jpg"
-                                                        alt="hodlgang" /></a>
-                                        <h3>HODLGANG</h3>
-                                        <p>A Chrome Extension that helps you hodl by blocking crypto websites.</p>
-                                        <br>
-                                        <a href="https://chrome.google.com/webstore/detail/hodlgang/mbcpgjahcbnoafmbmeoommbhgpaopdfe"
-                                                target="_blank" class="button small icon fa-chrome">Chrome Store</a>
-                                </article>
-                                <article class="6u 12u$(xsmall) work-item">
-                                        <a href="images/thumbs/qYENw2.gif" class="image fit thumb"><img src="images/thumbs/qYENw2.gif"
-                                                        alt="cryptoassets" /></a>
-                                        <h3>CryptoAssets</h3>
-                                        <p>Track Bitcoin in real time on Apple TV</p>
-                                        <br>
-                                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScf4oivi3vk_R4RAdfF6HcuCz188NDb7IimTah7L2juITtHPg/viewform?usp=sf_link"
-                                                target="_blank" class="button small icon fa-apple">Test Flight</a>
+                                        <a href="https://techcrunch.com/2018/06/07/panda-app/" target="_blank"
+                                                class="button small icon fa-newspaper">TechCrunch</a>
                                 </article>
                         </div>
 		</section>
@@ -136,15 +122,15 @@
 			<h2>Education</h2>
 			<div class="row">
 				<article class="6u 12u$(xsmall) work-item">
-					<a href="http://appacademy.io" target="_blank" class="image fit thumb"><img
+					<a href="https://www.appacademy.io" target="_blank" class="image fit thumb"><img
 							src="images/thumbs/appacademy.png" alt="App Academy" /></a>
 					<h3>App Academy</h3>
 					<strong>Software Engineering</strong>
-					<p>A 3 month coding bootcamp that accepts &lt;3%. of applicants. Ruby on Rails, JavaScript, React,
+					<p>A 3 month coding bootcamp that accepts &lt;3% of applicants. Ruby on Rails, JavaScript, React,
 						Redux, SQL, Advanced Algorithms, and Data Structures.</p>
 				</article>
 				<article class="6u$ 12u$(xsmall) work-item">
-					<a href="http://vcu.edu" target="_blank" class="image fit thumb"><img src="images/thumbs/vcu.png"
+					<a href="https://www.vcu.edu" target="_blank" class="image fit thumb"><img src="images/thumbs/vcu.png"
 							alt="Virginia Commonwealth University" /></a>
 					<h3>VCU</h3>
 					<strong>B.S. in Business Administration and Management: Entrepreneurship and Small Business
@@ -187,15 +173,13 @@
         <script>
             document.getElementById('year').textContent = new Date().getFullYear();
         </script>
+	<!-- Google Analytics 4 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-487QW6GY5M"></script>
 	<script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date(); a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'UA-72991808-1', 'auto');
-		ga('send', 'pageview');
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-487QW6GY5M');
 	</script>
 </body>
 

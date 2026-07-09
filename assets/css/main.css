@@ -3140,3 +3140,9 @@
 			}
 
 	}
+
+/* Font Awesome 6 glyphs missing from the vendored v4-shim classes */
+
+	.fa-bluesky:before {
+		content: "\e671";
+	}
