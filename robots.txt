@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-Sitemap: http://gabriellewis.me/sitemap.xml
+Sitemap: https://gabriellewis.me/sitemap.xml
